@@ -4,7 +4,8 @@
     <router-link to="/componentAdvance">组件高级</router-link> |
     <router-link to="/compositionapi">组合式API</router-link> |
     <router-link to="/router">vue-router</router-link> |
-    <router-link to="/axios">axios</router-link>
+    <router-link to="/axios">axios</router-link> |
+    <router-link to="/element-plus">ElementPlus展示</router-link>
   </div>
   <router-view />
 </template>

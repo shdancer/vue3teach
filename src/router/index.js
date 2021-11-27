@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import ComponentAdvance from '@/views/ComponentAdvance'
 import CompositionApi from '@/views/CompositionApi'
-import Router from "@/views/Router"
-import Axios from "@/views/Axios"
+import Router from '@/views/Router'
+import Axios from '@/views/Axios'
+import ElementPlus from '@/views/ElementPlus'
 
 const routes = [
   {
@@ -33,6 +34,11 @@ const routes = [
     path: '/compositionapi',
     name: 'compositionapi',
     component: CompositionApi
+  },
+  {
+    path: '/element-plus',
+    name: 'element-plus',
+    component: ElementPlus
   }
 ]
 
