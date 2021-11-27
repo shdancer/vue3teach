@@ -1,9 +1,12 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">梦开始的地方</router-link> |
+    <router-link to="/componentAdvance">组件高级</router-link> |
+    <router-link to="/compositionapi">组合式API</router-link> |
+    <router-link to="/router">vue-router</router-link> |
+    <router-link to="/axios">axios</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
